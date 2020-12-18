@@ -86,7 +86,7 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_M94ekjirEeuNMZJmSxb2ug" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_VUgEKDZiEeuv8qHxzG8oaA" name="Encargado del postulacion laboral" actor="_X88bEDZkEeuv8qHxzG8oaA">
+      <elements xmi:type="process:Lane" xmi:id="_VUgEKDZiEeuv8qHxzG8oaA" name="Encargado" actor="_X88bEDZkEeuv8qHxzG8oaA">
         <elements xmi:type="process:SendTask" xmi:id="_VUgEUTZiEeuv8qHxzG8oaA" name="Enviar publicación oferta laboral" outgoing="_VUgEfTZiEeuv8qHxzG8oaA" incoming="_C-dBADirEeuNMZJmSxb2ug">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_VUgEUjZiEeuv8qHxzG8oaA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_VUgEUzZiEeuv8qHxzG8oaA" name="" content="" returnTypeFixed="true"/>
