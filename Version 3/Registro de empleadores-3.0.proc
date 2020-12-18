@@ -122,9 +122,9 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_PE9aBDQLEeuaOrKr_hQHXA"/>
         <condition xmi:type="expression:Expression" xmi:id="_PE9aBTQLEeuaOrKr_hQHXA" name="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <connections xmi:type="process:SequenceFlow" xmi:id="_PE9aBjQLEeuaOrKr_hQHXA" target="_6rdskDipEeuNMZJmSxb2ug" source="_PE8y-TQLEeuaOrKr_hQHXA">
+      <connections xmi:type="process:SequenceFlow" xmi:id="_PE9aBjQLEeuaOrKr_hQHXA" target="_6rdskDipEeuNMZJmSxb2ug" source="_PE8y-TQLEeuaOrKr_hQHXA" isDefault="true">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_PE9aBzQLEeuaOrKr_hQHXA"/>
-        <condition xmi:type="expression:Expression" xmi:id="_PE9aCDQLEeuaOrKr_hQHXA" name="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <condition xmi:type="expression:Expression" xmi:id="_PE9aCDQLEeuaOrKr_hQHXA" name="" content="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_PE9aDDQLEeuaOrKr_hQHXA" name="si" target="_PE8zCjQLEeuaOrKr_hQHXA" source="_6rdskDipEeuNMZJmSxb2ug" isDefault="true">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_PE9aDTQLEeuaOrKr_hQHXA"/>
