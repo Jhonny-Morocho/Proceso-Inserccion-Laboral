@@ -38,12 +38,12 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_02c8UEFBEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_02c8UkFBEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:IntermediateCatchMessageEvent" xmi:id="_Nq_0AEFCEeu_KbVQnMwPbQ" name="Receptar denegación" outgoing="_DyEVIEFEEeu_KbVQnMwPbQ" incoming="_fUQJsEFCEeu_KbVQnMwPbQ">
+        <elements xmi:type="process:IntermediateCatchMessageEvent" xmi:id="_Nq_0AEFCEeu_KbVQnMwPbQ" name="Receptar notificación" outgoing="_DyEVIEFEEeu_KbVQnMwPbQ" incoming="_fUQJsEFCEeu_KbVQnMwPbQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_NrAbEUFCEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_NrAbEEFCEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_NrAbEkFCEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:IntermediateCatchMessageEvent" xmi:id="_nJDiwEFCEeu_KbVQnMwPbQ" name="Receptar aprobación" outgoing="_-0xtAEFJEeu_KbVQnMwPbQ" incoming="_nLegcEFJEeu_KbVQnMwPbQ">
+        <elements xmi:type="process:IntermediateCatchMessageEvent" xmi:id="_nJDiwEFCEeu_KbVQnMwPbQ" name="Receptar notificación" outgoing="_-0xtAEFJEeu_KbVQnMwPbQ" incoming="_nLegcEFJEeu_KbVQnMwPbQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_nJEJ0UFCEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_nJEJ0EFCEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_nJEJ0kFCEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
@@ -111,7 +111,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_NUQH8EFCEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_NUQH8kFCEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:IntermediateThrowMessageEvent" xmi:id="_cPaQ8EFIEeu_KbVQnMwPbQ" name="Notificar registro " outgoing="_gl0bEEFJEeu_KbVQnMwPbQ" incoming="_dSm94EFJEeu_KbVQnMwPbQ">
+        <elements xmi:type="process:IntermediateThrowMessageEvent" xmi:id="_cPaQ8EFIEeu_KbVQnMwPbQ" name="Notificar aprobacón" outgoing="_gl0bEEFJEeu_KbVQnMwPbQ" incoming="_dSm94EFJEeu_KbVQnMwPbQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_cPa4AUFIEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_cPa4AEFIEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_cPa4AkFIEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
@@ -123,7 +123,7 @@
         </elements>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_Un6UEEFIEeu_KbVQnMwPbQ" name="Encargado">
-        <elements xmi:type="process:IntermediateCatchMessageEvent" xmi:id="_gzkYoEFIEeu_KbVQnMwPbQ" name="Receptar registro" outgoing="_1c-3MEFJEeu_KbVQnMwPbQ" incoming="_oOI3UEFJEeu_KbVQnMwPbQ">
+        <elements xmi:type="process:IntermediateCatchMessageEvent" xmi:id="_gzkYoEFIEeu_KbVQnMwPbQ" name="Receptar notificaión" outgoing="_1c-3MEFJEeu_KbVQnMwPbQ" incoming="_oOI3UEFJEeu_KbVQnMwPbQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_gzkYokFIEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_gzkYoUFIEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_gzkYo0FIEeu_KbVQnMwPbQ" name="" content="" returnTypeFixed="true"/>
@@ -171,7 +171,7 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_DyE8MEFEEeu_KbVQnMwPbQ"/>
         <condition xmi:type="expression:Expression" xmi:id="_DyE8MUFEEeu_KbVQnMwPbQ" name="" content="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <connections xmi:type="process:SequenceFlow" xmi:id="_Nkxv4EFFEeu_KbVQnMwPbQ" name="si" target="_02cVQEFBEeu_KbVQnMwPbQ" source="_LtRbsEFFEeu_KbVQnMwPbQ">
+      <connections xmi:type="process:SequenceFlow" xmi:id="_Nkxv4EFFEeu_KbVQnMwPbQ" name="si" target="_02cVQEFBEeu_KbVQnMwPbQ" source="_LtRbsEFFEeu_KbVQnMwPbQ" isDefault="true">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_Nkxv4UFFEeu_KbVQnMwPbQ"/>
         <condition xmi:type="expression:Expression" xmi:id="_Nkxv4kFFEeu_KbVQnMwPbQ" name="" content="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
