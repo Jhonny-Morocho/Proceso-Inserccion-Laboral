@@ -65,7 +65,7 @@
         </elements>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_w1fncDOPEeuPaurS4OSjlQ" name="Secretaria" actor="_UU4GoDOPEeuPaurS4OSjlQ">
-        <elements xmi:type="process:Task" xmi:id="_xOTTkDOQEeuVHOHwmRtqIA" documentation="Validar informacion del estudiante o graduado, pertenezca a la carrera ." name="Validar información" outgoing="_PMtBADOREeuVHOHwmRtqIA" incoming="_CeVHQEFCEeu_KbVQnMwPbQ" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_xOTTkDOQEeuVHOHwmRtqIA" documentation="Validar informacion del estudiante o graduado, pertenezca a la carrera, mediante los datos obtenidos en el formulario recibido por el postulante ." name="Validar información" outgoing="_PMtBADOREeuVHOHwmRtqIA" incoming="_CeVHQEFCEeu_KbVQnMwPbQ" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_srt5MTOQEeuVHOHwmRtqIA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_srt5MDOQEeuVHOHwmRtqIA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_srt5MjOQEeuVHOHwmRtqIA" name="" content="" returnTypeFixed="true"/>
