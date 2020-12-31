@@ -1,0 +1,459 @@
+{
+  "designerVersion" : "1.11.40",
+  "id" : "validarInformacionTablaPostulante",
+  "name" : "validarInformacionTablaPostulante",
+  "lastUpdate" : 1609393511840,
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "73c4fdb1-cbe2-493b-bf26-3ae70f74502e",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "repeatedCollection" : {
+                  "type" : "variable",
+                  "value" : ""
+                }
+              },
+              "reference" : "471aaf4b-a14f-4130-bde8-cbc87925ffd9",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "rows" : [
+                [ ]
+              ]
+            }
+          ],
+          [
+            {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "repeatedCollection" : {
+                  "type" : "variable",
+                  "value" : ""
+                }
+              },
+              "reference" : "0b4d1814-310c-40bd-bbd9-de05ba2e8028",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "rows" : [
+                [
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 12
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Default label"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "text" : {
+                        "type" : "interpolation",
+                        "value" : "<h4>Lista de postulantes/Aprobados/Pendientes </h4>"
+                      },
+                      "alignment" : {
+                        "type" : "constant",
+                        "value" : "left"
+                      }
+                    },
+                    "reference" : "183f5c6a-c5c1-4f01-b7da-950c15976840",
+                    "hasValidationError" : false,
+                    "id" : "pbText"
+                  }
+                ],
+                [
+                  {
+                    "type" : "tabsContainer",
+                    "dimension" : {
+                      "xs" : 12
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "vertical" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "type" : {
+                        "type" : "constant",
+                        "value" : "tabs"
+                      }
+                    },
+                    "reference" : "c2a54dd9-70b5-4020-918c-38a1393f3d86",
+                    "hasValidationError" : false,
+                    "id" : "pbTabsContainer",
+                    "tabList" : [
+                      {
+                        "type" : "tabContainer",
+                        "dimension" : {
+                          "xs" : 12
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "disabled" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "title" : {
+                            "type" : "interpolation",
+                            "value" : "Pendientes"
+                          }
+                        },
+                        "reference" : "2844c9d9-5a6b-40d6-992b-edfa54030005",
+                        "hasValidationError" : false,
+                        "id" : "pbTabContainer",
+                        "container" : {
+                          "type" : "container",
+                          "dimension" : {
+                            "xs" : 12
+                          },
+                          "propertyValues" : { },
+                          "reference" : "1797bf6c-0bde-4b00-b1e3-331341ba877d",
+                          "hasValidationError" : false,
+                          "id" : "pbContainer",
+                          "rows" : [
+                            [
+                              {
+                                "type" : "component",
+                                "dimension" : {
+                                  "xs" : 12
+                                },
+                                "propertyValues" : {
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "hidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "headers" : {
+                                    "type" : "constant",
+                                    "value" : [
+                                      "Id",
+                                      "Fecha Registro",
+                                      "Cedula",
+                                      "Correo",
+                                      "Acción"
+                                    ]
+                                  },
+                                  "content" : {
+                                    "type" : "expression",
+                                    "value" : "dataPostulantesPendientes"
+                                  },
+                                  "columnsKey" : {
+                                    "type" : "constant",
+                                    "value" : [
+                                      "id",
+                                      "fechaRegistro",
+                                      "cedula",
+                                      "correo",
+                                      "html"
+                                    ]
+                                  },
+                                  "selectedRow" : {
+                                    "type" : "variable",
+                                    "value" : ""
+                                  },
+                                  "striped" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "condensed" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "bordered" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  }
+                                },
+                                "reference" : "bacbdda0-e3b9-4b12-a7f5-d38dca695ba7",
+                                "hasValidationError" : false,
+                                "id" : "pbTable"
+                              }
+                            ]
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "tabContainer",
+                        "dimension" : {
+                          "xs" : 12
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "disabled" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "title" : {
+                            "type" : "interpolation",
+                            "value" : "Aprobados"
+                          }
+                        },
+                        "reference" : "1f81a22c-e33c-4416-8266-8da8d626344b",
+                        "hasValidationError" : false,
+                        "id" : "pbTabContainer",
+                        "container" : {
+                          "type" : "container",
+                          "dimension" : {
+                            "xs" : 12
+                          },
+                          "propertyValues" : { },
+                          "reference" : "e1e17646-5319-4cc2-b028-6e81c982be38",
+                          "hasValidationError" : false,
+                          "id" : "pbContainer",
+                          "rows" : [
+                            [
+                              {
+                                "type" : "component",
+                                "dimension" : {
+                                  "xs" : 12
+                                },
+                                "propertyValues" : {
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "hidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "headers" : {
+                                    "type" : "constant",
+                                    "value" : [
+                                      "Id",
+                                      "Fecha Registro",
+                                      "Cedula",
+                                      "Correo",
+                                      "Acción"
+                                    ]
+                                  },
+                                  "content" : {
+                                    "type" : "expression",
+                                    "value" : "dataPostulantesAprobados"
+                                  },
+                                  "columnsKey" : {
+                                    "type" : "constant",
+                                    "value" : [
+                                      "id",
+                                      "fechaRegistro",
+                                      "cedula",
+                                      "correo",
+                                      "html"
+                                    ]
+                                  },
+                                  "selectedRow" : {
+                                    "type" : "variable",
+                                    "value" : ""
+                                  },
+                                  "striped" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "condensed" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "bordered" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  }
+                                },
+                                "reference" : "81b64ec1-f1cf-4a67-927a-3777f8983185",
+                                "hasValidationError" : false,
+                                "id" : "pbTable"
+                              }
+                            ]
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "2e958005-b7a3-4c3a-847e-97923f00dd80",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "dataPostulantesPendientes" : {
+      "type" : "json",
+      "value" : [
+        "[\r",
+        "    {\r",
+        "    \"id\": \"1\",\r",
+        "    \"fechaRegistro\": \"2020-12-01\",\r",
+        "    \"cedula\": \"111111111\",\r",
+        "    \"correo\":\"juan@hotmail.com\",\r",
+        "   \"html\":\"<a href='#Ancla'>Revisar</a>\"\r",
+        "    },\r",
+        "    \r",
+        "    {\r",
+        "    \"id\": \"2\",\r",
+        "    \"fechaRegistro\": \"2020-12-10\",\r",
+        "    \"cedula\": \"222222\",\r",
+        "    \"correo\":\"maria@hotmail.com\",\r",
+        "    \"html\":\"<a href='#Ancla'>Revisar</a>\"\r",
+        "    \r",
+        "    },\r",
+        "        {\r",
+        "    \"id\": \"3\",\r",
+        "    \"fechaRegistro\": \"2020-12-20\",\r",
+        "    \"cedula\": \"333333\",\r",
+        "    \"correo\":\"kevin@hotmail.com\",\r",
+        "   \"html\":\"<a href='#Ancla'>Revisar</a>\"\r",
+        "    \r",
+        "    }\r",
+        "]"
+      ],
+      "exposed" : false
+    },
+    "dataPostulantesAprobados" : {
+      "type" : "json",
+      "value" : [
+        "[\r",
+        "    {\r",
+        "    \"id\": \"4\",\r",
+        "    \"fechaRegistro\": \"2020-12-01\",\r",
+        "    \"cedula\": \"444444444\",\r",
+        "    \"correo\":\"lorena@hotmail.com\",\r",
+        "    \"html\":\"<a href='#Ancla'>Revisar</a>\"\r",
+        "    \r",
+        "    },\r",
+        "    \r",
+        "    {\r",
+        "    \"id\": \"5\",\r",
+        "    \"fechaRegistro\": \"2020-12-10\",\r",
+        "    \"cedula\": \"55555555\",\r",
+        "    \"correo\":\"daniel@hotmail.com\",\r",
+        "    \"html\":\"<a href='#Ancla'>Revisar</a>\"\r",
+        "    \r",
+        "    },\r",
+        "        {\r",
+        "    \"id\": \"6\",\r",
+        "    \"fechaRegistro\": \"2020-12-20\",\r",
+        "    \"cedula\": \"6666666\",\r",
+        "    \"correo\":\"diego@hotmail.com\",\r",
+        "    \"html\":\"<a href='#Ancla'>Revisar</a>\"\r",
+        "    \r",
+        "    }\r",
+        "]"
+      ],
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "ff3957dc-9c47-4e1b-a279-29cf81e1987f",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}

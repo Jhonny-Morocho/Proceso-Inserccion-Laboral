@@ -236,7 +236,7 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_gDl2EkTeEeu4_s82NiM7og" type="5024">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_gDl2E0TeEeu4_s82NiM7og" y="5"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gDl2EUTeEeu4_s82NiM7og" x="42" y="307"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gDl2EUTeEeu4_s82NiM7og" x="42" y="299"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_tnxMIEUzEeup9f2HYN9_Tw" type="3008" element="_tnvW8EUzEeup9f2HYN9_Tw" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_tnxzMEUzEeup9f2HYN9_Tw" type="5026">
