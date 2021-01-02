@@ -2,7 +2,7 @@
   "designerVersion" : "1.11.40",
   "id" : "registroPostulante",
   "name" : "registroPostulante",
-  "lastUpdate" : 1609393688338,
+  "lastUpdate" : 1609397126277,
   "rows" : [
     [
       {
@@ -170,7 +170,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Cedula de Indentidad"
+                          "value" : "Nombres Completos"
                         },
                         "labelPosition" : {
                           "type" : "constant",
@@ -182,7 +182,7 @@
                         },
                         "placeholder" : {
                           "type" : "interpolation",
-                          "value" : "1051557812"
+                          "value" : "Nombres Completos"
                         },
                         "value" : {
                           "type" : "variable",
@@ -203,7 +203,82 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "9c4643bf-cd29-4c51-b4b0-30a7257c381b",
+                      "reference" : "4686667b-3357-45b9-b121-a7e0d671f865",
+                      "hasValidationError" : false,
+                      "id" : "pbInput"
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Apellidos Completos"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "placeholder" : {
+                          "type" : "interpolation",
+                          "value" : "Apellidos Completos"
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : ""
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "db6f3313-1b75-4986-94c6-95a5100adb50",
                       "hasValidationError" : false,
                       "id" : "pbInput"
                     }
@@ -281,6 +356,146 @@
                       "reference" : "888a3c60-e146-4410-916a-cdc806f7cf15",
                       "hasValidationError" : false,
                       "id" : "pbInput"
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Cedula de Indentidad"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "placeholder" : {
+                          "type" : "interpolation",
+                          "value" : "1051557812"
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : ""
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "9c4643bf-cd29-4c51-b4b0-30a7257c381b",
+                      "hasValidationError" : false,
+                      "id" : "pbInput"
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Fecha de Nacimiento"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : ""
+                        },
+                        "dateFormat" : {
+                          "type" : "constant",
+                          "value" : "mm/dd/yyyy"
+                        },
+                        "placeholder" : {
+                          "type" : "interpolation",
+                          "value" : "Enter a date (mm/dd/yyyy)"
+                        },
+                        "showToday" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "todayLabel" : {
+                          "type" : "interpolation",
+                          "value" : ""
+                        }
+                      },
+                      "reference" : "36ca6e31-1ba8-4d9f-88fd-0e50b18ee795",
+                      "hasValidationError" : false,
+                      "id" : "pbDatePicker"
                     }
                   ],
                   [
@@ -423,71 +638,6 @@
                       "reference" : "de3acbb2-e9d8-4503-ac25-e5a3af1f4667",
                       "hasValidationError" : false,
                       "id" : "pbRadioButtons"
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "xs" : 12
-                      },
-                      "propertyValues" : {
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Fecha de Nacimiento"
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : ""
-                        },
-                        "dateFormat" : {
-                          "type" : "constant",
-                          "value" : "mm/dd/yyyy"
-                        },
-                        "placeholder" : {
-                          "type" : "interpolation",
-                          "value" : "Enter a date (mm/dd/yyyy)"
-                        },
-                        "showToday" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "todayLabel" : {
-                          "type" : "interpolation",
-                          "value" : ""
-                        }
-                      },
-                      "reference" : "36ca6e31-1ba8-4d9f-88fd-0e50b18ee795",
-                      "hasValidationError" : false,
-                      "id" : "pbDatePicker"
                     }
                   ],
                   [
