@@ -1,8 +1,9 @@
 {
-  "designerVersion" : "1.11.40",
+  "designerVersion" : "1.11.46",
+  "previousDesignerVersion" : "1.11.40",
   "id" : "registroPostulante",
   "name" : "registroPostulante",
-  "lastUpdate" : 1609397126277,
+  "lastUpdate" : 1609621197782,
   "rows" : [
     [
       {
