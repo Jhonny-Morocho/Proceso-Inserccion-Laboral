@@ -2,7 +2,7 @@
   "designerVersion" : "1.11.40",
   "id" : "volverInsistirPostulacion",
   "name" : "volverInsistirPostulacion",
-  "lastUpdate" : 1609393846710,
+  "lastUpdate" : 1609397694425,
   "rows" : [
     [
       {
@@ -133,6 +133,156 @@
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Nombre Completos"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "placeholder" : {
+                          "type" : "interpolation",
+                          "value" : "Nombre Completos"
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "dataPostulante.nombesCompletos"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "88049218-a96a-4465-b705-7fdc9dfac981",
+                      "hasValidationError" : false,
+                      "id" : "pbInput"
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Apellidos Completos"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "placeholder" : {
+                          "type" : "interpolation",
+                          "value" : "Apellidos Completos"
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "dataPostulante.apellidosCompletos"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "d32dbb20-65c5-46e7-a7a3-4a57e8643275",
+                      "hasValidationError" : false,
+                      "id" : "pbInput"
+                    }
+                  ],
                   [
                     {
                       "type" : "component",
@@ -660,6 +810,8 @@
         "    {\r",
         "    \"id\": \"4\",\r",
         "    \"fechaNacimiento\": \"1993-03-09\",\r",
+        "    \"nombesCompletos\": \"Maria Lorena\",\r",
+        "    \"apellidosCompletos\": \"Maldonado Lopez\",\r",
         "    \"cedula\": \"444444444\",\r",
         "    \"correo\":\"lorena@hotmail.com\",\r",
         "    \"telefono\":\"0998202201\",\r",
