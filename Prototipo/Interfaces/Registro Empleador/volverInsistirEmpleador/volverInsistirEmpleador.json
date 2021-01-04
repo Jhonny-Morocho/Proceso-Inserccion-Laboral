@@ -1,9 +1,9 @@
 {
   "designerVersion" : "1.11.46",
   "previousDesignerVersion" : "1.11.40",
-  "id" : "volverInsistirPostulacion",
-  "name" : "volverInsistirPostulacion",
-  "lastUpdate" : 1609621198158,
+  "id" : "volverInsistirEmpleador",
+  "name" : "volverInsistirEmpleador",
+  "lastUpdate" : 1609628247150,
   "rows" : [
     [
       {
@@ -25,7 +25,7 @@
             "value" : ""
           }
         },
-        "reference" : "5e27180e-8391-4e36-9f74-c65e5e4e1e04",
+        "reference" : "e1abd825-5906-46fc-9fb7-7478dbb4ce6e",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -49,7 +49,7 @@
                   "value" : ""
                 }
               },
-              "reference" : "7a417e53-44ed-4c39-9892-88ba49e744e6",
+              "reference" : "3c5e96c3-3ed2-4e7c-9150-942a5d3e43a2",
               "hasValidationError" : false,
               "id" : "pbContainer",
               "rows" : [
@@ -90,14 +90,14 @@
                       },
                       "text" : {
                         "type" : "interpolation",
-                        "value" : "<h3>Registro Expirado</h3>"
+                        "value" : "<h3>Registro de Empleador </h3>"
                       },
                       "alignment" : {
                         "type" : "constant",
                         "value" : "center"
                       }
                     },
-                    "reference" : "d53a8b91-14a7-4b25-928d-e973b284b4fd",
+                    "reference" : "ccfaec73-1305-43c5-b6a2-5c37161def67",
                     "hasValidationError" : false,
                     "id" : "pbText"
                   }
@@ -121,7 +121,7 @@
                   "value" : false
                 }
               },
-              "reference" : "73d9fcb1-12e4-4123-81e2-caf444526af8",
+              "reference" : "b8722c94-eb17-44b7-a09e-e8b5723064a7",
               "hasValidationError" : false,
               "id" : "pbFormContainer",
               "container" : {
@@ -130,7 +130,7 @@
                   "xs" : 12
                 },
                 "propertyValues" : { },
-                "reference" : "a288288c-dc84-47eb-bd32-f83be3e095e0",
+                "reference" : "df946373-8f58-44f0-b62b-7840a4a3308d",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -171,7 +171,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Nombre Completos"
+                          "value" : "Razón social de la empresa"
                         },
                         "labelPosition" : {
                           "type" : "constant",
@@ -183,11 +183,11 @@
                         },
                         "placeholder" : {
                           "type" : "interpolation",
-                          "value" : "Nombre Completos"
+                          "value" : "Razón social de la empresa"
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "dataPostulante.nombesCompletos"
+                          "value" : "dataEmpleador.razonSocial"
                         },
                         "type" : {
                           "type" : "constant",
@@ -204,7 +204,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "88049218-a96a-4465-b705-7fdc9dfac981",
+                      "reference" : "756b068e-e96f-4b51-bb2a-13a4d6ff29b1",
                       "hasValidationError" : false,
                       "id" : "pbInput"
                     }
@@ -246,7 +246,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Apellidos Completos"
+                          "value" : "Tipo de Institución o empresa,"
                         },
                         "labelPosition" : {
                           "type" : "constant",
@@ -258,11 +258,11 @@
                         },
                         "placeholder" : {
                           "type" : "interpolation",
-                          "value" : "Apellidos Completos"
+                          "value" : "Tipo de Institución o empresa,"
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "dataPostulante.apellidosCompletos"
+                          "value" : "dataEmpleador.tipoInstitucion"
                         },
                         "type" : {
                           "type" : "constant",
@@ -279,7 +279,139 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "d32dbb20-65c5-46e7-a7a3-4a57e8643275",
+                      "reference" : "1c1c273b-57e6-4afd-b2c4-6937d29f2752",
+                      "hasValidationError" : false,
+                      "id" : "pbInput"
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Actividad económica inscrita en el RUC"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "dataEmpleador.actividadEconomicaRuc"
+                        }
+                      },
+                      "reference" : "b8859ec8-b6f0-4d56-b3f2-5da1e8305657",
+                      "hasValidationError" : false,
+                      "id" : "pbTextarea"
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Número del RUC"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "placeholder" : {
+                          "type" : "interpolation",
+                          "value" : "Número del RUC"
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "dataEmpleador.numeroRuc"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "4ffdf705-4550-454a-a606-a865d4ec0d25",
                       "hasValidationError" : false,
                       "id" : "pbInput"
                     }
@@ -321,7 +453,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Cedula de Indentidad"
+                          "value" : "Cédula de identidad del representante legal"
                         },
                         "labelPosition" : {
                           "type" : "constant",
@@ -333,11 +465,11 @@
                         },
                         "placeholder" : {
                           "type" : "interpolation",
-                          "value" : ""
+                          "value" : "Cédula de identidad del representante legal"
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "dataPostulante.cedula"
+                          "value" : "dataEmpleador.cedulaIndentidad"
                         },
                         "type" : {
                           "type" : "constant",
@@ -354,7 +486,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "a4557ca7-adbe-43d2-85e6-febff1d9f596",
+                      "reference" : "98aa67db-858e-4cd0-84df-40f75b6e2485",
                       "hasValidationError" : false,
                       "id" : "pbInput"
                     }
@@ -396,7 +528,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Correo Institucional"
+                          "value" : "Nombre del representante legal"
                         },
                         "labelPosition" : {
                           "type" : "constant",
@@ -408,11 +540,231 @@
                         },
                         "placeholder" : {
                           "type" : "interpolation",
-                          "value" : ""
+                          "value" : "Nombre del representante legal"
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "dataPostulante.correo"
+                          "value" : "dataEmpleador.nombreRepresentanteLegal"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "c06a7125-0d64-40ff-a8f8-f006f7f705ff",
+                      "hasValidationError" : false,
+                      "id" : "pbInput"
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 6
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Ciudad"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "placeholder" : {
+                          "type" : "interpolation"
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "dataEmpleador.ciduad"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "5db8d382-95f7-4261-bf28-2119ad0178eb",
+                      "hasValidationError" : false,
+                      "id" : "pbInput"
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 6
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Provincia"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "placeholder" : {
+                          "type" : "interpolation"
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "dataEmpleador.provincia"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "94b99455-ad99-4b48-8488-c53687aefd02",
+                      "hasValidationError" : false,
+                      "id" : "pbInput"
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Correo electrónico"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "placeholder" : {
+                          "type" : "interpolation"
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "dataEmpleador.correo"
                         },
                         "type" : {
                           "type" : "constant",
@@ -429,7 +781,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "cb4a8b19-bffd-488c-9839-e275a8d5a996",
+                      "reference" : "49aed0a1-a674-460c-aa32-d86853d0761d",
                       "hasValidationError" : false,
                       "id" : "pbInput"
                     }
@@ -483,11 +835,11 @@
                         },
                         "placeholder" : {
                           "type" : "interpolation",
-                          "value" : ""
+                          "value" : "254875"
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "dataPostulante.telefono"
+                          "value" : "dataEmpleador.telefono"
                         },
                         "type" : {
                           "type" : "constant",
@@ -504,141 +856,9 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "89455fb1-7b41-47bd-8a64-76bb6247eea9",
+                      "reference" : "2b724958-f874-4a37-a6e8-1fe6befc3385",
                       "hasValidationError" : false,
                       "id" : "pbInput"
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "xs" : 12
-                      },
-                      "propertyValues" : {
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Genero"
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
-                        },
-                        "inline" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "availableValues" : {
-                          "type" : "constant",
-                          "value" : [
-                            "Hombre",
-                            "Mujer"
-                          ]
-                        },
-                        "displayedKey" : {
-                          "type" : "constant"
-                        },
-                        "returnedKey" : {
-                          "type" : "constant",
-                          "value" : "Mujer"
-                        },
-                        "selectedValue" : {
-                          "type" : "variable",
-                          "value" : ""
-                        }
-                      },
-                      "reference" : "a452a795-b9a5-4b7c-9fc2-9c2f725afa41",
-                      "hasValidationError" : false,
-                      "id" : "pbRadioButtons"
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "xs" : 12
-                      },
-                      "propertyValues" : {
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Fecha de Nacimiento"
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "dataPostulante.fechaNacimiento"
-                        },
-                        "dateFormat" : {
-                          "type" : "constant",
-                          "value" : "mm/dd/yyyy"
-                        },
-                        "placeholder" : {
-                          "type" : "interpolation",
-                          "value" : "Enter a date (mm/dd/yyyy)"
-                        },
-                        "showToday" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "todayLabel" : {
-                          "type" : "interpolation",
-                          "value" : ""
-                        }
-                      },
-                      "reference" : "be8be7bb-3747-4a30-ba37-62c42e406953",
-                      "hasValidationError" : false,
-                      "id" : "pbDatePicker"
                     }
                   ],
                   [
@@ -678,7 +898,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Dirección domiciliaria o laboral"
+                          "value" : "Dirección"
                         },
                         "labelPosition" : {
                           "type" : "constant",
@@ -690,10 +910,10 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "dataPostulante.direccionDomicilio"
+                          "value" : "dataEmpleador.direccion"
                         }
                       },
-                      "reference" : "ab880bc8-739a-4639-ae70-795e3f25dcd7",
+                      "reference" : "a358e04e-e268-43d3-8de1-68e42fa0aa98",
                       "hasValidationError" : false,
                       "id" : "pbTextarea"
                     }
@@ -735,7 +955,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Observaciónes"
+                          "value" : "Observacion del Encargado"
                         },
                         "labelPosition" : {
                           "type" : "constant",
@@ -747,10 +967,10 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : ""
+                          "value" : "dataEmpleador.observacion"
                         }
                       },
-                      "reference" : "cd9e60fc-f923-4db7-876e-43185157636b",
+                      "reference" : "e4c42f2c-1245-4a7d-80fe-a56d2a558ad3",
                       "hasValidationError" : false,
                       "id" : "pbTextarea"
                     }
@@ -837,7 +1057,7 @@
                           "type" : "variable"
                         }
                       },
-                      "reference" : "47ff7c88-51cf-41e3-a92b-a4acfffb9f5c",
+                      "reference" : "c132cbd0-5cc9-4556-a864-fefdcedd0929",
                       "hasValidationError" : false,
                       "id" : "pbButton"
                     }
@@ -861,27 +1081,32 @@
   ],
   "inactiveAssets" : [ ],
   "variables" : {
-    "dataPostulante" : {
+    "dataEmpleador" : {
       "type" : "json",
       "value" : [
         "\r",
         "    {\r",
-        "    \"id\": \"4\",\r",
-        "    \"fechaNacimiento\": \"1993-03-09\",\r",
-        "    \"nombesCompletos\": \"Maria Lorena\",\r",
-        "    \"apellidosCompletos\": \"Maldonado Lopez\",\r",
-        "    \"cedula\": \"444444444\",\r",
-        "    \"correo\":\"lorena@hotmail.com\",\r",
-        "    \"telefono\":\"0998202201\",\r",
-        "    \"direccionDomicilio\":\"La cruz de yahuarcuna, Av.Eduardo Kigman\"\r",
-        "    }\r",
-        "\r"
+        "        \"razonSocial\": \"Sociedad Iberica de construcciones electricas S.A (SICE)\",\r",
+        "        \"tipoInstitucion\": \"Económicas\",\r",
+        "        \"actividadEconomicaRuc\": \"4100 Contruccion de software\",\r",
+        "        \"numeroRuc\": \"20504036961\",\r",
+        "        \"ciduad\":\"Loja\",\r",
+        "        \"provincia\":\"Loja\",\r",
+        "        \"cedulaIndentidad\":\"1105116899\",\r",
+        "        \"nombreRepresentanteLegal\":\"Ing. Pedro Lopéz\",\r",
+        "        \"correo\":\"contruccionelectrica@hotmail.com\",\r",
+        "        \"telefono\":\"051525245\",\r",
+        "        \"direccion\":\"Jr. Juan de arona Nro.151 int.203 urb, Jardin Lima\",\r",
+        "        \"observacion\":\"Aqui se menciona el motivo de la no aprobacíon\"\r",
+        "        }\r",
+        "    \r",
+        "    "
       ],
       "exposed" : false
     }
   },
   "hasValidationError" : false,
-  "uuid" : "f8f8fdcf-44fe-4009-99d1-ce35c1228e7a",
+  "uuid" : "add7a003-3281-4397-a1bd-e2f2d3c3130d",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

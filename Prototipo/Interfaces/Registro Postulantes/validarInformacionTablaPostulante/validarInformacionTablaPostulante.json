@@ -1,8 +1,9 @@
 {
-  "designerVersion" : "1.11.40",
+  "designerVersion" : "1.11.46",
+  "previousDesignerVersion" : "1.11.40",
   "id" : "validarInformacionTablaPostulante",
   "name" : "validarInformacionTablaPostulante",
-  "lastUpdate" : 1609393511840,
+  "lastUpdate" : 1609621197917,
   "rows" : [
     [
       {
@@ -195,7 +196,7 @@
                           "rows" : [
                             [
                               {
-                                "type" : "component",
+                                "type" : "container",
                                 "dimension" : {
                                   "xs" : 12
                                 },
@@ -208,54 +209,173 @@
                                     "type" : "constant",
                                     "value" : false
                                   },
-                                  "allowHTML" : {
-                                    "type" : "constant",
-                                    "value" : true
-                                  },
-                                  "headers" : {
-                                    "type" : "constant",
-                                    "value" : [
-                                      "Id",
-                                      "Fecha Registro",
-                                      "Cedula",
-                                      "Correo",
-                                      "Acción"
-                                    ]
-                                  },
-                                  "content" : {
-                                    "type" : "expression",
-                                    "value" : "dataPostulantesPendientes"
-                                  },
-                                  "columnsKey" : {
-                                    "type" : "constant",
-                                    "value" : [
-                                      "id",
-                                      "fechaRegistro",
-                                      "cedula",
-                                      "correo",
-                                      "html"
-                                    ]
-                                  },
-                                  "selectedRow" : {
+                                  "repeatedCollection" : {
                                     "type" : "variable",
                                     "value" : ""
-                                  },
-                                  "striped" : {
-                                    "type" : "constant",
-                                    "value" : false
-                                  },
-                                  "condensed" : {
-                                    "type" : "constant",
-                                    "value" : false
-                                  },
-                                  "bordered" : {
-                                    "type" : "constant",
-                                    "value" : true
                                   }
                                 },
-                                "reference" : "bacbdda0-e3b9-4b12-a7f5-d38dca695ba7",
+                                "reference" : "0867f368-d02f-440c-9007-9c0f39742f51",
                                 "hasValidationError" : false,
-                                "id" : "pbTable"
+                                "id" : "pbContainer",
+                                "rows" : [
+                                  [
+                                    {
+                                      "type" : "component",
+                                      "dimension" : {
+                                        "xs" : 12
+                                      },
+                                      "propertyValues" : {
+                                        "cssClasses" : {
+                                          "type" : "constant",
+                                          "value" : ""
+                                        },
+                                        "hidden" : {
+                                          "type" : "constant",
+                                          "value" : false
+                                        },
+                                        "type" : {
+                                          "type" : "constant",
+                                          "value" : "Process document"
+                                        },
+                                        "url" : {
+                                          "type" : "constant",
+                                          "value" : ""
+                                        },
+                                        "document" : {
+                                          "type" : "variable",
+                                          "value" : ""
+                                        },
+                                        "showPreview" : {
+                                          "type" : "constant",
+                                          "value" : true
+                                        }
+                                      },
+                                      "reference" : "40bdae49-563d-441b-a316-a2353a45f025",
+                                      "hasValidationError" : false,
+                                      "id" : "pbFileViewer"
+                                    }
+                                  ]
+                                ]
+                              }
+                            ],
+                            [
+                              {
+                                "type" : "container",
+                                "dimension" : {
+                                  "xs" : 12
+                                },
+                                "propertyValues" : {
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "hidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "repeatedCollection" : {
+                                    "type" : "variable",
+                                    "value" : ""
+                                  }
+                                },
+                                "reference" : "344b649b-e45d-45a9-8b49-8693fdc3e482",
+                                "hasValidationError" : false,
+                                "id" : "pbContainer",
+                                "rows" : [
+                                  [ ]
+                                ]
+                              }
+                            ],
+                            [
+                              {
+                                "type" : "container",
+                                "dimension" : {
+                                  "xs" : 12
+                                },
+                                "propertyValues" : {
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "hidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "repeatedCollection" : {
+                                    "type" : "variable",
+                                    "value" : ""
+                                  }
+                                },
+                                "reference" : "80e6cb3b-2c3a-40c2-8674-628d9ebd38e1",
+                                "hasValidationError" : false,
+                                "id" : "pbContainer",
+                                "rows" : [
+                                  [
+                                    {
+                                      "type" : "component",
+                                      "dimension" : {
+                                        "xs" : 12
+                                      },
+                                      "propertyValues" : {
+                                        "cssClasses" : {
+                                          "type" : "constant",
+                                          "value" : ""
+                                        },
+                                        "hidden" : {
+                                          "type" : "constant",
+                                          "value" : false
+                                        },
+                                        "allowHTML" : {
+                                          "type" : "constant",
+                                          "value" : true
+                                        },
+                                        "headers" : {
+                                          "type" : "constant",
+                                          "value" : [
+                                            "Id",
+                                            "Fecha Registro",
+                                            "Cedula",
+                                            "Correo",
+                                            "Acción"
+                                          ]
+                                        },
+                                        "content" : {
+                                          "type" : "expression",
+                                          "value" : "dataPostulantesPendientes"
+                                        },
+                                        "columnsKey" : {
+                                          "type" : "constant",
+                                          "value" : [
+                                            "id",
+                                            "fechaRegistro",
+                                            "cedula",
+                                            "correo",
+                                            "html"
+                                          ]
+                                        },
+                                        "selectedRow" : {
+                                          "type" : "variable",
+                                          "value" : ""
+                                        },
+                                        "striped" : {
+                                          "type" : "constant",
+                                          "value" : false
+                                        },
+                                        "condensed" : {
+                                          "type" : "constant",
+                                          "value" : false
+                                        },
+                                        "bordered" : {
+                                          "type" : "constant",
+                                          "value" : true
+                                        }
+                                      },
+                                      "reference" : "bacbdda0-e3b9-4b12-a7f5-d38dca695ba7",
+                                      "hasValidationError" : false,
+                                      "id" : "pbTable"
+                                    }
+                                  ]
+                                ]
                               }
                             ]
                           ]
