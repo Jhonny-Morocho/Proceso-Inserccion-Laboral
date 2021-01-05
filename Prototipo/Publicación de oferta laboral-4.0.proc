@@ -100,6 +100,11 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_gystkkFWEeu8pOyNVpsIhg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_gystkUFWEeu8pOyNVpsIhg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_gystk0FWEeu8pOyNVpsIhg" name="" content="" returnTypeFixed="true"/>
+          <messageContent xmi:type="expression:Operation" xmi:id="_hIyFoE8oEeuN_YBmIvj8dQ">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_hI4zUE8oEeuN_YBmIvj8dQ" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_hI4MQE8oEeuN_YBmIvj8dQ" content=""/>
+            <operator xmi:type="expression:Operator" xmi:id="_hIyFoU8oEeuN_YBmIvj8dQ" type="ASSIGNMENT"/>
+          </messageContent>
         </elements>
         <elements xmi:type="process:IntermediateThrowMessageEvent" xmi:id="_oEUhEEFWEeu8pOyNVpsIhg" name="Notificar denegación" outgoing="_VpocgEFYEeu8pOyNVpsIhg" incoming="_Y_ygAEFYEeu8pOyNVpsIhg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_oEUhEkFWEeu8pOyNVpsIhg" name="" content="" returnTypeFixed="true"/>

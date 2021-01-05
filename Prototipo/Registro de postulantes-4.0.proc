@@ -75,7 +75,7 @@
         </elements>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_w1fncDOPEeuPaurS4OSjlQ" name="Secretaria" actor="_UU4GoDOPEeuPaurS4OSjlQ">
-        <elements xmi:type="process:Task" xmi:id="_xOTTkDOQEeuVHOHwmRtqIA" documentation="Validar informacion del estudiante o graduado, pertenezca a la carrera ." name="Validar y aprobación de información de postulante" outgoing="_PMtBADOREeuVHOHwmRtqIA" incoming="_CeVHQEFCEeu_KbVQnMwPbQ" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_xOTTkDOQEeuVHOHwmRtqIA" documentation="Validar informacion del estudiante o graduado, pertenezca a la carrera ." name="Validar y Registrar información " outgoing="_PMtBADOREeuVHOHwmRtqIA" incoming="_CeVHQEFCEeu_KbVQnMwPbQ" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_srt5MTOQEeuVHOHwmRtqIA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_srt5MDOQEeuVHOHwmRtqIA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_srt5MjOQEeuVHOHwmRtqIA" name="" content="" returnTypeFixed="true"/>
@@ -330,7 +330,7 @@
                 </children>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SWDDUUFBEeu_KbVQnMwPbQ" x="-17" y="18"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xOT6rDOQEeuVHOHwmRtqIA" x="185" y="166" width="140" height="70"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xOT6rDOQEeuVHOHwmRtqIA" x="174" y="155" width="149" height="75"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_IsWNYDiqEeuNMZJmSxb2ug" type="3008" element="_Ir_BADiqEeuNMZJmSxb2ug" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_IsZ3wDiqEeuNMZJmSxb2ug" type="5026">
@@ -373,7 +373,7 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_w1gOgjOPEeuPaurS4OSjlQ" fontName="Segoe UI"/>
           <styles xmi:type="notation:LineStyle" xmi:id="_w1gOgzOPEeuPaurS4OSjlQ"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_w1g1kjOPEeuPaurS4OSjlQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w1gOhDOPEeuPaurS4OSjlQ" x="23" y="432" width="1352" height="331"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w1gOhDOPEeuPaurS4OSjlQ" x="23" y="432" width="1352" height="418"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_Un7iMEFIEeu_KbVQnMwPbQ" type="3007" element="_Un6UEEFIEeu_KbVQnMwPbQ">
           <children xmi:type="notation:DecorationNode" xmi:id="_Un7iNUFIEeu_KbVQnMwPbQ" type="5007"/>
