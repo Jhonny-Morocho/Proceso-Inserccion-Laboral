@@ -68,7 +68,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_hk-E91AxEeuT1IVnqLfmUA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_hk-E9lAxEeuT1IVnqLfmUA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_8GgC4FAxEeuT1IVnqLfmUA" name="Acceso a perfil de postulante" outgoing="_-0xtAEFJEeu_KbVQnMwPbQ" incoming="__9JkUFAxEeuT1IVnqLfmUA" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_8GgC4FAxEeuT1IVnqLfmUA" name="Ingresar perfil de postulante" outgoing="_-0xtAEFJEeu_KbVQnMwPbQ" incoming="__9JkUFAxEeuT1IVnqLfmUA" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_8Ggp8FAxEeuT1IVnqLfmUA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_8GgC4VAxEeuT1IVnqLfmUA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_8Ggp8VAxEeuT1IVnqLfmUA" name="" content="" returnTypeFixed="true"/>
@@ -121,7 +121,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_6nYO-FAwEeuT1IVnqLfmUA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_6nYO91AwEeuT1IVnqLfmUA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:SendTask" xmi:id="_ZiwiAFAxEeuT1IVnqLfmUA" name="Notificar aprobacón" outgoing="_gl0bEEFJEeu_KbVQnMwPbQ" incoming="_rrUUMEreEeuzmvEmPdksLQ">
+        <elements xmi:type="process:SendTask" xmi:id="_ZiwiAFAxEeuT1IVnqLfmUA" name="Notificar aprobación" outgoing="_gl0bEEFJEeu_KbVQnMwPbQ" incoming="_rrUUMEreEeuzmvEmPdksLQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_Y8-7clAxEeuT1IVnqLfmUA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_Y8-7cVAxEeuT1IVnqLfmUA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_Y8-7c1AxEeuT1IVnqLfmUA" name="" content="" returnTypeFixed="true"/>
@@ -141,7 +141,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_IKc-4DOUEeuVHOHwmRtqIA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_IKc-4jOUEeuVHOHwmRtqIA" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:ScriptTask" xmi:id="_K0nNYFBDEeuKHrGJt_m8IQ" name="Notificar  de registro expirado al postulante" outgoing="_9rbaEE5UEeu23MB3P7GaXw" incoming="_WFQjMEFFEeu_KbVQnMwPbQ">
+        <elements xmi:type="process:ScriptTask" xmi:id="_K0nNYFBDEeuKHrGJt_m8IQ" name="Notificar registro expirado " outgoing="_9rbaEE5UEeu23MB3P7GaXw" incoming="_WFQjMEFFEeu_KbVQnMwPbQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_u1Iv8lAwEeuT1IVnqLfmUA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_u1Iv8VAwEeuT1IVnqLfmUA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_u1JXAFAwEeuT1IVnqLfmUA" name="" content="" returnTypeFixed="true"/>
@@ -363,7 +363,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_ZixJElAxEeuT1IVnqLfmUA" type="3025" element="_ZiwiAFAxEeuT1IVnqLfmUA" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_ZixJFFAxEeuT1IVnqLfmUA" type="5011"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZixJE1AxEeuT1IVnqLfmUA" x="756" y="168" width="100" height="50"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZixJE1AxEeuT1IVnqLfmUA" x="756" y="168" width="120" height="60"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_DylPIErfEeuzmvEmPdksLQ" type="3009" element="_DyjZ8ErfEeuzmvEmPdksLQ" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_DylPIkrfEeuzmvEmPdksLQ" type="5020">
