@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
-  <process:MainProcess xmi:id="_vShlgCqfEeu_hvo84ZbLzg" name="Aplicar Oferta laboral" version="2.0" author="diego" bonitaVersion="7.11.0" bonitaModelVersion="7.11.0-005" configId="ACED0005740010372E31312E302D303035372E31312E30">
+  <process:MainProcess xmi:id="_vShlgCqfEeu_hvo84ZbLzg" name="Aplicar Oferta laboral" version="2.0" author="jhonn" bonitaVersion="7.11.0" bonitaModelVersion="7.11.0-005" configId="ACED0005740010372E31312E302D303035372E31312E30">
     <elements xmi:type="process:Pool" xmi:id="_vShlgSqfEeu_hvo84ZbLzg" name="Aplicar Oferta laboral" version="2.0">
       <elements xmi:type="process:Lane" xmi:id="_vShlgiqfEeu_hvo84ZbLzg" name="Postulante" actor="_vShlmyqfEeu_hvo84ZbLzg">
         <elements xmi:type="process:StartEvent" xmi:id="_vShlgyqfEeu_hvo84ZbLzg" name="necesidad de aplicar oferta laboral" outgoing="_B4eNMDinEeuvD8UAJKAesw">

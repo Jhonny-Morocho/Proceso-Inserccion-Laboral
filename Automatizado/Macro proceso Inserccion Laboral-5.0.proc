@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_uiEjwETcEeuNT4LpJ8YoIg" name="Macro proceso Inserccion Laboral" version="4.0" author="jhonn" bonitaVersion="7.11.0" bonitaModelVersion="7.11.0-005" configId="ACED0005740010372E31312E302D303035372E31312E30">
-    <elements xmi:type="process:Pool" xmi:id="_uiFK0ETcEeuNT4LpJ8YoIg" name="Macro Proceso" version="4.0">
+    <elements xmi:type="process:Pool" xmi:id="_uiFK0ETcEeuNT4LpJ8YoIg" name="Macro Proceso" version="5.0">
       <elements xmi:type="process:Lane" xmi:id="_uiFK0UTcEeuNT4LpJ8YoIg" name="Ausencia de registro" actor="_uiFK6kTcEeuNT4LpJ8YoIg">
         <elements xmi:type="process:StartEvent" xmi:id="_HPyXcE9hEeutSoxsmO8fGA" name="Inicio1" outgoing="_HeWX4E9hEeutSoxsmO8fGA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_HPyXck9hEeutSoxsmO8fGA" name="" content="" returnTypeFixed="true"/>
@@ -35,7 +35,7 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_Gi6tlk9lEeutSoxsmO8fGA" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_Gi6tmE9lEeutSoxsmO8fGA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_Gi6tl09lEeutSoxsmO8fGA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <calledActivityName xmi:type="expression:Expression" xmi:id="_HN-cxE9lEeutSoxsmO8fGA" name="" content="" returnTypeFixed="true"/>
+          <calledActivityName xmi:type="expression:Expression" xmi:id="_HN-cxE9lEeutSoxsmO8fGA" name="Registro de empleadores" content="Registro de empleadores" returnTypeFixed="true"/>
           <calledActivityVersion xmi:type="expression:Expression" xmi:id="_HN-cxU9lEeutSoxsmO8fGA" name="" content="" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:CallActivity" xmi:id="_TKDNME9lEeutSoxsmO8fGA" name="Registro de postulantes" outgoing="_eTseUE9pEeutSoxsmO8fGA" incoming="_SrJqsE9lEeutSoxsmO8fGA">
@@ -47,7 +47,7 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_SrELJk9lEeutSoxsmO8fGA" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_SrEyMU9lEeutSoxsmO8fGA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_SrEyME9lEeutSoxsmO8fGA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <calledActivityName xmi:type="expression:Expression" xmi:id="_TKD0Q09lEeutSoxsmO8fGA" name="" content="" returnTypeFixed="true"/>
+          <calledActivityName xmi:type="expression:Expression" xmi:id="_TKD0Q09lEeutSoxsmO8fGA" name="Registro de postulantes" content="Registro de postulantes" returnTypeFixed="true"/>
           <calledActivityVersion xmi:type="expression:Expression" xmi:id="_TKD0RE9lEeutSoxsmO8fGA" name="" content="" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:CallActivity" xmi:id="_Xv7zME9lEeutSoxsmO8fGA" name="Aplicar Oferta Laboral" outgoing="_IKd3AE9hEeutSoxsmO8fGA" incoming="_P9vCME9lEeutSoxsmO8fGA">
@@ -72,7 +72,7 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_fcLtMU9lEeutSoxsmO8fGA" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_fcLtM09lEeutSoxsmO8fGA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_fcLtMk9lEeutSoxsmO8fGA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <calledActivityName xmi:type="expression:Expression" xmi:id="_f_vGNE9lEeutSoxsmO8fGA" name="" content="" returnTypeFixed="true"/>
+          <calledActivityName xmi:type="expression:Expression" xmi:id="_f_vGNE9lEeutSoxsmO8fGA" name="Registro de hoja de vida" content="Registro de hoja de vida" returnTypeFixed="true"/>
           <calledActivityVersion xmi:type="expression:Expression" xmi:id="_f_vGNU9lEeutSoxsmO8fGA" name="" content="" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:EndEvent" xmi:id="_NdhycE9pEeutSoxsmO8fGA" name="Fin6" incoming="_NdnSAE9pEeutSoxsmO8fGA">
