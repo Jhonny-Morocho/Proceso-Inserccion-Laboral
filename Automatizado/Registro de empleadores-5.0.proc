@@ -140,7 +140,7 @@
           <completionCondition xmi:type="expression:Expression" xmi:id="_p4ExVlA2EeuGn4enQ0-yrA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:TextAnnotation" xmi:id="_0iDRAJBnEeyxYtMG3iSy4A" text="Notificar registro exitoso al empleador"/>
-        <elements xmi:type="process:TextAnnotation" xmi:id="__zX0QJBnEeyxYtMG3iSy4A" text="Notificar registro no aprobado al empleador"/>
+        <elements xmi:type="process:TextAnnotation" xmi:id="__zX0QJBnEeyxYtMG3iSy4A" text="Notificar mediante correo el registro no aprobado al empleador"/>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_PE9Z_zQLEeuaOrKr_hQHXA">
         <targetForm xmi:type="expression:Expression" xmi:id="_PE9aADQLEeuaOrKr_hQHXA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
