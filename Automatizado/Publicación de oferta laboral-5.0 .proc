@@ -128,7 +128,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_ivIRV1A5EeuZhY76AU6eCw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_ivIRVlA5EeuZhY76AU6eCw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:TextAnnotation" xmi:id="_-fgzIJB8Eey49Y6WR80ngg" text="Notificar al correo dell empleador la no aprobación de la oferta laboral"/>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_-fgzIJB8Eey49Y6WR80ngg" text="Notificar al correo del empleador la no aprobación de la oferta laboral"/>
         <elements xmi:type="process:TextAnnotation" xmi:id="_8H4_AJB9EeyuQvnwhCHHcA" text="Se notifica al gestor mediante correo la nueva oferta laboral pendiente en publicar"/>
         <elements xmi:type="process:TextAnnotation" xmi:id="_OY_F4JCAEeyz9cGdm45sQA" text="Se notifica la expiración de la oferta laboral registrada al empleador"/>
       </elements>

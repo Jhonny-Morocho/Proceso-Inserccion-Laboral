@@ -29,7 +29,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_sZc9EEzBEeuYc4A0qaWKWQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_sZc9EkzBEeuYc4A0qaWKWQ" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:ServiceTask" xmi:id="_9Fc7cFBSEeuvcr8MDWXWNg" name="Almacenar informacíon" outgoing="_sZgncEzBEeuYc4A0qaWKWQ" incoming="_ngzMEEzBEeuYc4A0qaWKWQ">
+        <elements xmi:type="process:ServiceTask" xmi:id="_9Fc7cFBSEeuvcr8MDWXWNg" name="Almacenar información" outgoing="_sZgncEzBEeuYc4A0qaWKWQ" incoming="_ngzMEEzBEeuYc4A0qaWKWQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_nds0wUzBEeuYc4A0qaWKWQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_nds0wEzBEeuYc4A0qaWKWQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_nds0wkzBEeuYc4A0qaWKWQ" name="" content="" returnTypeFixed="true"/>

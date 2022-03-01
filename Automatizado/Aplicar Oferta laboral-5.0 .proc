@@ -222,8 +222,8 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_vsv9EDrqEeuaHL8ReKJJ0A" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_vswkITrqEeuaHL8ReKJJ0A" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:TextAnnotation" xmi:id="_NyllgJCGEeyz9cGdm45sQA" text="Se envia al correo del empleador un enlace de reactivacion de la oferta laboral el mismo que direccionara a un formulario"/>
-        <elements xmi:type="process:XORGateway" xmi:id="_SUpkoJUqEeybJrqddXOHbg" name="¿Se contrato algún postulante?" outgoing="_0_nkEDipEeuvD8UAJKAesw _7zHSMFBEEeuKHrGJt_m8IQ" incoming="_NmoLgDipEeuvD8UAJKAesw">
+        <elements xmi:type="process:TextAnnotation" xmi:id="_NyllgJCGEeyz9cGdm45sQA" text="Se envia al correo del empleador un enlace de reactivacion de la oferta laboral el mismo que direccionará a un formulario"/>
+        <elements xmi:type="process:XORGateway" xmi:id="_SUpkoJUqEeybJrqddXOHbg" name="¿Se contrató algún postulante?" outgoing="_0_nkEDipEeuvD8UAJKAesw _7zHSMFBEEeuKHrGJt_m8IQ" incoming="_NmoLgDipEeuvD8UAJKAesw">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_NmjTADipEeuvD8UAJKAesw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_Nmir8DipEeuvD8UAJKAesw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_NmjTATipEeuvD8UAJKAesw" name="" content="" returnTypeFixed="true"/>

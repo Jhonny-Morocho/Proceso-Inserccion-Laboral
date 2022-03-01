@@ -57,7 +57,7 @@
         </elements>
         <elements xmi:type="process:TextAnnotation" xmi:id="_c5dZkI67EeybsMQynXKjtA" text="Haber iniciado sesión"/>
         <elements xmi:type="process:TextAnnotation" xmi:id="_R27Y4I6-EeyaVcJHlFDNkA" text="Se notifica a la secretaria mediante correo electrónico el registro de un nuevo postulante"/>
-        <elements xmi:type="process:Task" xmi:id="_gvsz4I7SEeyaVcJHlFDNkA" name="Receptar notificaión de registro aprobado" outgoing="_2tL-4I7SEeyaVcJHlFDNkA" incoming="_nLegcEFJEeu_KbVQnMwPbQ" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_gvsz4I7SEeyaVcJHlFDNkA" name="Receptar notificación de registro aprobado" outgoing="_2tL-4I7SEeyaVcJHlFDNkA" incoming="_nLegcEFJEeu_KbVQnMwPbQ" overrideActorsOfTheLane="false">
           <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_3Nhr0I7SEeyaVcJHlFDNkA" source="_3NeogI7SEeyaVcJHlFDNkA"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_hk-E8VAxEeuT1IVnqLfmUA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_hk-E8FAxEeuT1IVnqLfmUA" name="" content="" returnTypeFixed="true"/>
@@ -145,7 +145,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_Y8-7eFAxEeuT1IVnqLfmUA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_Y8-7d1AxEeuT1IVnqLfmUA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:TextAnnotation" xmi:id="_29O6AJBnEeyxYtMG3iSy4A" text="Notificar validación no exitoso al postulante"/>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_29O6AJBnEeyxYtMG3iSy4A" text="Notificar validación no exitosa al postulante"/>
         <elements xmi:type="process:TextAnnotation" xmi:id="_iLzdAJBoEeyxYtMG3iSy4A" text="Notificar validación exitosa al postulante mediante correo"/>
         <elements xmi:type="process:TextAnnotation" xmi:id="_3pV3YJOvEeyE7el5zy2CGw" text="Se notifica al postulante que su registro ha expirado y que vuelva a reintentar"/>
         <elements xmi:type="process:EndTerminatedEvent" xmi:id="_0xQvoJOyEeyE7el5zy2CGw" name="Registro aprobado" incoming="_Ayev0EFKEeu_KbVQnMwPbQ">
@@ -155,7 +155,7 @@
         </elements>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_Un6UEEFIEeu_KbVQnMwPbQ" name="Encargado">
-        <elements xmi:type="process:Task" xmi:id="_hxFYYI7SEeyaVcJHlFDNkA" name="Receptar notificaión de nuevo postulante registrado" outgoing="_1c-3MEFJEeu_KbVQnMwPbQ" incoming="_oOI3UEFJEeu_KbVQnMwPbQ" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_hxFYYI7SEeyaVcJHlFDNkA" name="Receptar notificación de nuevo postulante registrado" outgoing="_1c-3MEFJEeu_KbVQnMwPbQ" incoming="_oOI3UEFJEeu_KbVQnMwPbQ" overrideActorsOfTheLane="false">
           <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_RT1tYI7TEeyaVcJHlFDNkA" source="_RTr8YI7TEeyaVcJHlFDNkA"/>
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_iqmQQVAxEeuT1IVnqLfmUA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_iqmQQFAxEeuT1IVnqLfmUA" name="" content="" returnTypeFixed="true"/>
