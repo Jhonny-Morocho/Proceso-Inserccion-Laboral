@@ -133,7 +133,7 @@
         <elements xmi:type="process:TextAnnotation" xmi:id="_OY_F4JCAEeyz9cGdm45sQA" text="Se notifica la expiración de la oferta laboral registrada al empleador"/>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_VUgEYjZiEeuv8qHxzG8oaA" name="Gestor de la carrera" actor="_nfSHkDZkEeuv8qHxzG8oaA">
-        <elements xmi:type="process:Task" xmi:id="_Gz9ZgDZnEeuv8qHxzG8oaA" name="Receptar, aprobar y publicar oferta laboral" outgoing="_y8y94JB8Eey49Y6WR80ngg" incoming="_2n0TAFA5EeuZhY76AU6eCw _bW3OYJB8Eey49Y6WR80ngg" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_Gz9ZgDZnEeuv8qHxzG8oaA" name="Publicar oferta laboral" outgoing="_y8y94JB8Eey49Y6WR80ngg" incoming="_2n0TAFA5EeuZhY76AU6eCw _bW3OYJB8Eey49Y6WR80ngg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_GW6RITZnEeuv8qHxzG8oaA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_GW6RIDZnEeuv8qHxzG8oaA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_GW6RIjZnEeuv8qHxzG8oaA" name="" content="" returnTypeFixed="true"/>
