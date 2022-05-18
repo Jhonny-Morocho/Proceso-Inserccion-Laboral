@@ -246,7 +246,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_ecLvsNZ8EeyUlLv-qCZS-Q" type="3025" element="_ecLIoNZ8EeyUlLv-qCZS-Q" fontName="Segoe UI" fontHeight="10" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_ecLvstZ8EeyUlLv-qCZS-Q" type="5011"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ecLvsdZ8EeyUlLv-qCZS-Q" x="498" y="56" width="120" height="60"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ecLvsdZ8EeyUlLv-qCZS-Q" x="498" y="56" width="126" height="63"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_IO32JdZ7EeyA2bV02YCesA"/>
@@ -322,7 +322,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_IO32WtZ7EeyA2bV02YCesA" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_IO32W9Z7EeyA2bV02YCesA" fontName="Segoe UI" fontHeight="10"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IO32XNZ7EeyA2bV02YCesA" points="[-122, 28, -306, 20]$[-122, 67, -306, 59]$[222, 67, 38, 59]$[222, 30, 38, 22]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IO32XNZ7EeyA2bV02YCesA" points="[-84, 28, -269, 19]$[-84, 67, -269, 58]$[222, 67, 37, 58]$[222, 33, 37, 24]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IO32XdZ7EeyA2bV02YCesA" id="(1.0,0.5409836065573771)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gvM7MNZ8EeyUlLv-qCZS-Q" id="(0.175,0.6333333333333333)"/>
     </edges>
